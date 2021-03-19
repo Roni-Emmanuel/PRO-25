@@ -5,9 +5,9 @@ class paper {
           isStatic:false,
           'restitution':0.3,
           'friction':0.5,
-          'density':1.2,
+          'density':3.0,
       }
-      this.body = Bodies.circle(x, y, 50, options);
+      this.body = Bodies.circle(x, y, 20, options);
       this.width = 50;
       this.height = 50;
       this.image = loadImage("paper.png")
